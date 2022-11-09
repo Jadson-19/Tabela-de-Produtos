@@ -1,0 +1,198 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+header {
+
+    background-color: #000000;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.h3{
+    margin-bottom: 15px;
+    margin-top: -27px;
+    }
+
+.card{
+
+    text-align: center;  
+    padding-top: 130px;
+    padding-bottom: 130px;
+    width: 100%;
+    align-items: center;
+    background-color: #444;
+    font-size: 30px;
+    color: #eee;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tabela{
+    text-align: center; 
+    border-color: #eee;
+    border-radius: 10px;
+    border-width: 2.5px;
+    border-style: solid;
+    height: 450px;
+    width: 350px;
+    margin-top: -20px;
+    margin-left: 0 50px;
+    padding-bottom: 300px;
+  }
+  
+   
+  .pesquisar{
+    border-style:solid;
+    border-radius: 5px;
+    border-width: 3.5px;
+    font-size: 20px;
+    width: 90%;
+    margin: 5px;
+    display: inline-block;
+  }
+  
+  .paragrafo{
+    font-size: 14px;
+    color: #eee;
+    display: inline-block;
+    margin-left: 3px;
+    color: #eee;
+    text-align: center;
+  }
+
+  .tituloProdutos1{
+  
+    font-size: 20px;
+    color: #eee;
+    text-align: center;
+    color: rgb(9, 255, 0);
+    margin-top: 10px;
+  
+  }
+  
+  .tituloProdutos2{
+  
+    font-size: 20px;
+    color: #eee;
+    text-align: center;
+    color: rgb(0, 255, 13);
+  
+  }
+  
+  .produtosEsportes{
+
+    display: inline-block;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    
+  }
+  
+  .produtosEletronicos{
+
+    display: inline-block;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+   
+  }
+  
+  .spanEstoque{
+    color: red;
+  }
+  
+  th{
+
+    display: inline-block;
+    font-size: 25px;
+  }
+  
+  
+  td{
+
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  .nome{
+    float: left;
+    margin-top: 3px;
+    margin-right: 20px;
+    display: block;
+  }
+
+  .preco{
+    float: right;
+    margin-top: 3px;
+    margin-left: 20px;
+    display: block;
+  }
+  
+footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+footer p:nth-child(1) {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2) {
+    color: #fff;
+    font-size: 18px;
+    /* width: 500px; */
+    text-align: center;
+    line-height: 26px;
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #444;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social a:hover {
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+.fim {
+    position: absolute;
+    color: #fff;
+    bottom: 35px;
+    font-size: 17px;
+}
